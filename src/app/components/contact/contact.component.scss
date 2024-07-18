@@ -1,0 +1,169 @@
+// .about-section {
+// 	background: linear-gradient(to right, #101c21, #16282e, #345563); 
+//     height: 68vh; 
+//     margin-top: 5rem;/* Full height of the viewport */
+// }
+// .get{
+//     color: rgb(220, 91, 72);
+//     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+// }
+//   .mail {
+//     color: pink;
+// }
+
+// .conthree{
+// 	color: rgb(236, 227, 250);
+// }
+
+
+// h2 {
+//     font-size: 2rem;
+//     font-weight: bold;
+// }
+
+// .fa {
+//     margin-right: 10px;
+//     color: #000;
+// }
+
+// .btn-dark {
+//     background-color: #000;
+//     color: #fff;
+// }
+
+// .full-width-hr {
+//     width: 100%;
+//     border: 0;
+//     border-top: 1px solid #ffffff;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+// }
+
+// .contact-details {
+//     margin-top: 20px;
+// }
+
+// .social-icons {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+// }
+
+// .social-icon {
+//     margin: 0 10px;
+// }
+
+// .cont1{
+// 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+// 	color: white;
+// }
+// .conttwo{
+// 	font-family: 'Merriweather', serif;
+// 	color: rgb(154, 151, 151);
+// 	font-size: 18px;
+// }
+// @media (max-width: 768px) {
+//     .d-flex {
+//         flex-direction: column;
+//         align-items: flex-start;
+//     }
+
+//     .btn-dark {
+//         margin-bottom: 10px;
+//     }
+
+//     .fa {
+//         margin-bottom: 10px;
+//     }
+// }
+
+// @media (min-width: 768px) {
+//     .contact-details {
+//         margin-left: auto;
+//     }
+// }
+
+.about-section {
+     	background-color: rgba(4, 4, 4, 0.911); 
+        margin-top: 5rem;/* Full height of the viewport */
+     }
+     .get{
+             color: rgb(249, 108, 73);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .cont1{
+             	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             	color: white;
+             }
+             .conttwo{
+             	font-family: 'Merriweather', serif;
+             	color: rgb(154, 151, 151);
+             	font-size: 18px;
+             }
+             .conthree{
+                	color: rgb(255, 255, 255);
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 }
+                 .full-width-hr {
+                        width: 100%;
+                         border: 0;
+                         border-top: 1px solid #9a9a9a;
+                         margin-top: 20px;
+                         margin-bottom: 20px;
+                     }
+                     .mail {
+                             color: pink;
+                             text-decoration: none;
+                             font-size: 18px;
+                         }
+                         .social-icons {
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 20px;
+                        }
+                        
+                        .social-icon {
+                            text-decoration: none;
+                            color: #0e0c0c; /* Change to desired color */
+                            font-size: 24px; /* Increase icon size */
+                            width: 40px;
+                          height: 40px;
+                          background-color: #ffffff; /* Background color */
+                            border-radius: 50%; /* Make the background circular */
+                          display: flex;
+                         align-items: center;
+                         justify-content: center;
+                     transition: transform 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
+                     margin: 0 10px; /* Add smooth transition for hover effects */
+                        }
+                        
+                        .social-icon:hover {
+                            color: #fc5959; /* Change color on hover */
+                            transform: scale(1.2); /* Scale up the icon on hover */
+                        }
+                        
+                        /* Additional styling for spacing */
+                        .mx-2 {
+                            margin: 0 15px; /* Adjust margin as needed */
+                        }
+                        .mail {
+                            text-decoration: none;
+                            color: #e0aaaa; /* Change to your desired color */
+                            font-size: 16px;
+                            transition: color 0.3s; /* Smooth transition for hover effects */
+                        }
+                        
+                        .mail:hover {
+                            color: #ffffff; /* Change color on hover */
+                        }
+                        
+                        .mail i {
+                            font-size: 18px; /* Size of the icon */
+                            margin-right: 8px; /* Space between the icon and email address */
+                            transition: transform 0.3s; /* Smooth transition for hover effects */
+                        }
+                        
+                        .mail:hover i {
+                            transform: scale(1.2); /* Scale up the icon on hover */
+                        }

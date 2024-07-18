@@ -1,0 +1,15 @@
+.custom-nav {
+	margin-right: 60px; /* Adjust this value to move the nav links left */
+  }
+  .nav-link{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: clamp(16px, 1.5vw + 16px, 18px);
+	color: white;
+  }
+ .navbar{
+	background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+ }
+ .navbar-brand{
+	color: white;
+	margin-left: 40px;
+ }

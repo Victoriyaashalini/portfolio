@@ -1,0 +1,58 @@
+<!-- <div class="container   projects">
+	<h2 class="project text-center">PROJECTS</h2>
+	<div class="row project-row">
+	  <div class="col-md-4">
+		<a href="https://example.com/coding-achievements" target="_blank" class="text-decoration-none">
+		  <div class="card shadow">
+			<img src="../../../assets/images/ui-ux-representations-with-laptop (1).jpg" class="card-img-top img-fluid" alt="Coding">
+			<div class="card-body">
+			  <h5 class="card-title text-center">Front End </h5>
+			</div>
+		  </div>
+		</a>
+	  </div>
+	  <div class="col-md-4">
+		<a href="https://example.com/hackathon-achievements" target="_blank" class="text-decoration-none">
+		  <div class="card shadow">
+			<img src="../../../assets/images/1686558934655_Top-Backend-as-a-Service-BaaS-platforms-in-2022.png" class="card-img-top img-fluid" alt="Hackathon">
+			<div class="card-body">
+			  <h5 class="card-title text-center">Back End</h5>
+			</div>
+		  </div>
+		</a>
+	  </div>
+	  <div class="col-md-4 cards">
+		<a href="https://example.com/extracurricular-achievements" target="_blank" class="text-decoration-none">
+		  <div class="card shadow">
+			<img src="../../../assets/images/11754567_4804282_edited.jpg" class="card-img-top img-fluid" alt="Extracurricular">
+			<div class="card-body">
+			  <h5 class="card-title text-center">Fullstack</h5>
+			</div>
+		  </div>
+		</a>
+	  </div>
+	</div>
+  </div>
+   -->
+  <!-- projects.component.html -->
+<!-- projects.component.html -->
+<div class="container projects my-5">
+	<h2 class="project text-center mb-4">PROJECTS</h2>
+	<div class="row">
+	  <div class="col-lg-4 col-md-6 col-sm-12 project-tile" *ngFor="let project of projects; let i = index">
+		<div class="project-content" (mouseenter)="toggleHover(i)" (mouseleave)="toggleHover(i)">
+		  <div class="project-text">
+			<h5 class="project-title">{{ project.title }}</h5>
+			<p class="project-description">{{ project.description }}</p>
+		  </div>
+		  <div class="project-info" [ngClass]="{'hovered': project.hovered}">
+			<h5 class="project-title">{{ project.title }}</h5>
+			<p class="project-description">{{ project.description }}</p>
+			<a [href]="project.link" target="_blank" class="btn btn-primary">Learn More</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  

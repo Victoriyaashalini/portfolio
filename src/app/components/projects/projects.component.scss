@@ -1,0 +1,209 @@
+// .card {
+// 	margin: 20px 0;
+//   }
+//   .card {
+//     overflow: hidden; /* Ensures the image does not overflow out of the card */
+//     transition: box-shadow 0.3s ease; /* Smooth transition for the box-shadow */
+//     border: none; /* Remove any border from the card */
+//   }
+
+  
+
+//   .card img {
+//     transition: transform 0.3s ease; /* Smooth transition for the zoom effect on the image */
+//   }
+
+//   .card:hover img {
+//     transform: scale(1.05); /* Scale the image to 105% when hovered */
+//   }
+
+//   .card-body {
+//     transition: background-color 0.3s ease; /* Smooth transition for the background color change */
+//   }
+
+//   .card:hover .card-body {
+//     background-color: #f47373; /* Change to desired background color when hovered */
+//   }
+//   .card-img-top {
+// 	height: 250px;
+// 	object-fit: cover;
+// 	mix-blend-mode: multiply;
+//   }
+  
+//   .card-title {
+// 	font-size: 1.25rem;
+// 	font-family: 'Merriweather', serif;
+// font-weight: bold;
+// color: rgb(83, 18, 84);
+//   }
+  
+  
+//   .card-text {
+// 	font-size: 1rem;
+//   }
+  
+//   .text-decoration-none {
+// 	text-decoration: none;
+//   }
+  
+//   .text-decoration-none:hover {
+// 	text-decoration: none;
+//   }
+//   .project{
+//     font-family: 'Merriweather', serif;
+//        color: rgb(83, 18, 77);
+//   margin-top: 30px;
+//   font-weight: bold;
+//   }
+//   .project-row{
+// 	margin-top: 2rem;
+//   }
+//   .projects{
+// 	margin-top: 7rem;
+//   }
+  
+/* projects.component.css */
+/* projects.component.scss */
+.projects {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-tile {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  height: 300px;
+  border-radius: 15px; /* Adding border-radius to the tile */
+  transition: transform 0.3s;
+}
+
+.project-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  border-radius: inherit; /* Inherit the border-radius from parent */
+}
+
+.project-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #161617; /* Add your desired background color */
+  color: white;
+  padding: 20px;
+  border-radius: inherit; /* Inherit the border-radius from parent */
+  text-align: center;
+}
+
+.project-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 0.9rem;
+}
+
+.project-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: inherit; /* Inherit the border-radius from parent */
+}
+
+.project-content:hover .project-info,
+.project-info.hovered {
+  opacity: 1;
+}
+
+.project-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.btn-primary {
+  margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .project-tile {
+    height: 250px;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-description {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .project-tile {
+    height: 200px;
+  }
+
+  .project-title {
+    font-size: 1.1rem;
+  }
+
+  .project-description {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-tile {
+    height: 180px;
+  }
+
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .project-description {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-tile {
+    height: 160px;
+  }
+
+  .project-title {
+    font-size: 0.9rem;
+  }
+
+  .project-description {
+    font-size: 0.7rem;
+  }
+
+  .project-info {
+    padding: 10px;
+  }
+}
