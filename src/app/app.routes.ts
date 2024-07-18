@@ -5,6 +5,10 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import {  Routes } from '@angular/router';
 
 export const routes: Routes = [
+	{
+		path: 'feature',
+		loadComponent: () => import('./feature/feature.component').then(m => m.FeatureComponent)
+	  },
 	{ path: '', component: HomeComponent, pathMatch: 'full' },
 	
 		// Default child route

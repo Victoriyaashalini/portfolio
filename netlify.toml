@@ -1,0 +1,10 @@
+[build]
+ base="portfolio-victoriya
+  publish = "dist/portfolio-victoriya"
+command = "ng build --prod"
+
+
+  [[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200 
