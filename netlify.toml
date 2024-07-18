@@ -1,9 +1,11 @@
 [build]
 
-  publish = "dist/portfolio-victoriya"
+  publish = "dist/portfolio-victoriya/browser"
 command = "ng build --prod"
 
-
+[[plugins]]
+  package = "@netlify/angular-runtime"
+  
   [[redirects]]
 from = "/*"
 to = "/index.html"
