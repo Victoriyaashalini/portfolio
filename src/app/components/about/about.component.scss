@@ -1,45 +1,121 @@
-.container {
-	background-color: #f8f9fa;
-	padding: 20px;
-	border-radius: 5px;
-  }
-  .abouthe{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color: black;
+// .nunito-sans{
+//   font-family: "Nunito Sans", sans-serif;
+//   font-optical-sizing: auto;
+    
+// }
 
-  }
-  .abouttext{
-	font-family: 'Merriweather', serif;
-font-size: 18px;
-color: #525050;
-  }
-  h2 {
-	color: #4a4a4a;
-  }
+// .josefin-sans {
+//   font-family: "Josefin Sans", sans-serif;
+//   font-optical-sizing: auto;
+//   font-style: normal;
+// }
+
+
+
+
+
+// .container {
+// 	background-color: #ffffff;
+// 	padding: 20px;
+// 	border-radius: 5px;
+//   }
+//   .abouthe{
+//     font-family: 'Josefin Sans', sans-serif;
+
+//     color: black;
+//     font-size: 2rem;
+
+//   }
+//   .abouttext{
+//     font-size: 17px;
+// color: #525050;
+// font-family: 'Nunito', sans-serif;
+
+//   }
+//   h2 {
+// 	color: #4a4a4a;
+//   }
   
-  blockquote {
-	border-left: 5px solid #4a4949;
-	padding-left: 15px;
-  }
- .fullstack{
-	font-size: 18px;
-	font-family: 'Merriweather', serif;
+//   blockquote {
+// 	border-left: 5px solid #4a4949;
+// 	padding-left: 15px;
+//   }
+//  .fullstack{
+// 	font-size: 18px;
+//   font-family: 'Nunito', sans-serif;
 
-  }
-  table{
-	font-family: 'Merriweather', serif;
-	font-size: 18px;
+//   }
+//   table{
+//     font-family: 'Nunito', sans-serif;
+//     font-size: 17px;
 
 
-  }
+//   }
+//   .down{
+//     font-family: 'Nunito', sans-serif;
+
+//   }
   
-  table tr th{
-	color: rgb(18, 20, 71);
-  }
-  .about-img {
+//   table tr th{
+// 	color: rgb(18, 20, 71);
+//   }
+//   .about-img {
 	
-	max-height: 300px;
-	height: 200px; /* Adjust the max height as needed */
+// 	max-height: 300px;
+// 	height: 200px; /* Adjust the max height as needed */
+//   }
+  
+.nunito-sans{
+	font-family: "Nunito Sans", sans-serif;
+	font-optical-sizing: auto;
+	  
   }
   
+  .josefin-sans {
+	font-family: "Josefin Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+  }
 
+  .container-fluid {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-size: 1.75rem; /* Default font size for h2 */
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(51, 54, 54);
+
+  }
+  
+  p.lead {
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+
+    /* Default font size for paragraph */
+  }
+  
+  /* Responsive typography */
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 2rem; /* Larger font size for h2 on medium and larger screens */
+    }
+  
+    p.lead {
+      font-size: 1.25rem; /* Larger font size for paragraph on medium and larger screens */
+    }
+  }
+  
+  .btn-primary {
+    background-color: #50eb55;
+    border: none;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    color: black;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+
+  }
+  

@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 interface Project {
-  title: string;
+  fronttitle: string;
   link: string;
+  backtitle:string,
   image: string;
-  description: string;
+  frontdescription: string;
+  backdescription: string;
+
   hovered: boolean;
 }
 
@@ -18,24 +21,30 @@ interface Project {
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      title: 'Front End',
+      fronttitle: 'Frontend',
+      backtitle:'Tour Experts',
       link: 'https://example.com/coding-achievements',
       image: '../../../assets/images/angular_article.png',
-      description: 'Explore my front-end development projects showcasing modern design and user experience.',
+      frontdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
+      backdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
       hovered: false
     },
     {
-      title: 'Back End',
+      fronttitle: 'Back end',
+      backtitle:'Tour Experts',
       link: 'https://example.com/hackathon-achievements',
       image: '../../../assets/images/nodejs-dev-1.png',
-      description: 'Discover my back-end projects that emphasize server-side logic and database management.',
+      frontdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
+      backdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
       hovered: false
     },
     {
-      title: 'Fullstack',
+      fronttitle: 'Full stack',
+      backtitle:'PawfectCare',
       link: 'https://example.com/extracurricular-achievements',
       image: '../../../assets/images/able-mean-stack-developers.jpg',
-      description: 'Check out my full-stack projects integrating front-end and back-end technologies seamlessly.',
+      frontdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
+      backdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
       hovered: false
     }
   ];

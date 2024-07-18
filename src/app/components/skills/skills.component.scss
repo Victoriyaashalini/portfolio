@@ -1,3 +1,17 @@
+.nunito-sans{
+	font-family: "Nunito Sans", sans-serif;
+	font-optical-sizing: auto;
+	  
+  }
+  
+  .josefin-sans {
+	font-family: "Josefin Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+  }
+  
+  
+
 .progress {
 	height: 23px;
   }
@@ -7,9 +21,11 @@
 
 
 .skill{
-    font-family: 'Merriweather', serif;
-color: rgb(79, 77, 77);
+font-family: 'Josefin Sans', sans-serif;
 margin-top: 30px;
+font-size: 1.75rem; /* Default font size for h2 */
+font-weight: 700;
+color: #14d337;
 }  
 .develop {
 	margin-top: 7rem;
@@ -18,7 +34,7 @@ margin-top: 30px;
 	margin-top: 4rem;
 }
 .accor{
-	font-family: 'Merriweather', serif;
+	font-family: 'Nunito', sans-serif;
 }
 .accordion-button::after {
     transition: transform 0.3s ease;
@@ -45,7 +61,7 @@ margin-top: 30px;
     color: #000000; /* Set your desired text color */
     border: 1px solid #ddd; /* Optional: add a border for better visual separation */
     border-top: none;
-	font-family: 'Merriweather', serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 17px;
 }
 
@@ -58,7 +74,7 @@ margin-top: 30px;
 .progress-bar {
     text-align: left;
     padding-left: 10px;
-	font-family: 'Merriweather', serif;
+font-family: 'Nunito', sans-serif;
 	background-color: #221645;
 }
 button:focus {
@@ -131,3 +147,17 @@ color: white;
 .progress {
     background-color: transparent;
 }
+@media (min-width: 768px) {
+    .skill {
+      font-size: 2rem; /* Larger font size for h2 on medium and larger screens */
+    }
+  
+   
+  }
+  .skill{
+    font-family: 'Josefin Sans', sans-serif;
+margin-top: 30px;
+font-size: 1.75rem; /* Default font size for h2 */
+font-weight: 700;
+color: rgb(51, 54, 54);
+} 

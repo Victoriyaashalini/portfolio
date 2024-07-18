@@ -2,8 +2,8 @@
 	margin-right: 60px; /* Adjust this value to move the nav links left */
   }
   .nav-link{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: clamp(16px, 1.5vw + 16px, 18px);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: clamp(16px, 1.5vw + 16px, 18px);
 	color: white;
   }
  .navbar{
@@ -12,4 +12,17 @@
  .navbar-brand{
 	color: white;
 	margin-left: 40px;
+  font-family: "Nunito Sans", sans-serif;
+
  }
+ .navbar-nav .nav-item .dropdown-toggle::after {
+    display: none;
+  }
+  .navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.navbar-toggler {
+    border: none !important;
+    background-color: transparent !important;
+}

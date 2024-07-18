@@ -1,73 +1,20 @@
-// .card {
-// 	margin: 20px 0;
-//   }
-//   .card {
-//     overflow: hidden; /* Ensures the image does not overflow out of the card */
-//     transition: box-shadow 0.3s ease; /* Smooth transition for the box-shadow */
-//     border: none; /* Remove any border from the card */
-//   }
-
-  
-
-//   .card img {
-//     transition: transform 0.3s ease; /* Smooth transition for the zoom effect on the image */
-//   }
-
-//   .card:hover img {
-//     transform: scale(1.05); /* Scale the image to 105% when hovered */
-//   }
-
-//   .card-body {
-//     transition: background-color 0.3s ease; /* Smooth transition for the background color change */
-//   }
-
-//   .card:hover .card-body {
-//     background-color: #f47373; /* Change to desired background color when hovered */
-//   }
-//   .card-img-top {
-// 	height: 250px;
-// 	object-fit: cover;
-// 	mix-blend-mode: multiply;
-//   }
-  
-//   .card-title {
-// 	font-size: 1.25rem;
-// 	font-family: 'Merriweather', serif;
-// font-weight: bold;
-// color: rgb(83, 18, 84);
-//   }
-  
-  
-//   .card-text {
-// 	font-size: 1rem;
-//   }
-  
-//   .text-decoration-none {
-// 	text-decoration: none;
-//   }
-  
-//   .text-decoration-none:hover {
-// 	text-decoration: none;
-//   }
-//   .project{
-//     font-family: 'Merriweather', serif;
-//        color: rgb(83, 18, 77);
-//   margin-top: 30px;
-//   font-weight: bold;
-//   }
-//   .project-row{
-// 	margin-top: 2rem;
-//   }
-//   .projects{
-// 	margin-top: 7rem;
-//   }
-  
-/* projects.component.css */
-/* projects.component.scss */
 .projects {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   padding: 20px;
-  border-radius: 10px;
+}
+
+.projects h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 30px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: rgb(51, 54, 54);
+}
+
+@media (min-width: 768px) {
+  .projects h2 {
+    font-size: 2rem;
+  }
 }
 
 .project-tile {
@@ -75,8 +22,8 @@
   overflow: hidden;
   margin-bottom: 30px;
   height: 300px;
-  border-radius: 15px; /* Adding border-radius to the tile */
-  transition: transform 0.3s;
+  border-radius: 15px;
+  transition: transform 0.3s ease-out;
 }
 
 .project-content {
@@ -84,30 +31,27 @@
   width: 100%;
   height: 100%;
   transition: transform 0.3s;
-  border-radius: inherit; /* Inherit the border-radius from parent */
+  border-radius: inherit;
 }
 
 .project-text {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #161617; /* Add your desired background color */
-  color: white;
+  background-color: #ffffff;
+  color: rgb(4, 3, 3);
   padding: 20px;
-  border-radius: inherit; /* Inherit the border-radius from parent */
+  border-radius: inherit;
   text-align: center;
-}
-
-.project-title {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.project-description {
-  font-size: 0.9rem;
+  border: 2px solid #14d337;
+  z-index: 2;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out; /* Smooth transition added */
 }
 
 .project-info {
@@ -123,28 +67,46 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: opacity 0.3s;
-  border-radius: inherit; /* Inherit the border-radius from parent */
+  transform: translateY(100%);
+  transition: opacity 0.3s ease-out, transform 0.4s ease-out; /* Smooth transition added */
+  border-radius: inherit;
+  z-index: 1;
+}
+
+.project-content:hover .project-text {
+  opacity: 0;
+  transform: translateY(-100%);
 }
 
 .project-content:hover .project-info,
 .project-info.hovered {
   opacity: 1;
+  transform: translateY(0%);
+  border: 2px solid #14d337;
 }
 
 .project-title {
   font-weight: bold;
   margin-bottom: 15px;
+  font-family: "Josefin Sans", sans-serif;
+
 }
 
 .project-description {
   font-size: 0.9rem;
   margin-bottom: 15px;
   text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+
 }
 
 .btn-primary {
   margin-top: 15px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #50eb55;
+  color: black;
+  font-weight: bold;
+  border: none;
 }
 
 /* Responsive Design */
