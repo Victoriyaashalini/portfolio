@@ -31,10 +31,10 @@ export class ProjectsComponent {
     },
     {
       fronttitle: 'Back end',
-      backtitle:'Tour Experts',
-      link: 'https://example.com/hackathon-achievements',
+      backtitle:'Health care Management system',
+      link: 'https://tourexperrts.netlify.app',
       image: '../../../assets/images/nodejs-dev-1.png',
-      frontdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
+      frontdescription: 'Explore Backend projects showcasing modern design and user experience.',
       backdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
       hovered: false
     },
@@ -43,7 +43,7 @@ export class ProjectsComponent {
       backtitle:'PawfectCare',
       link: 'https://pawfectcare.netlify.app/',
       image: '../../../assets/images/able-mean-stack-developers.jpg',
-      frontdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
+      frontdescription: 'Explore Full stack projects showcasing modern design and user experience.',
       backdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
       hovered: false
     }
