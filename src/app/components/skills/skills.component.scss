@@ -1,3 +1,4 @@
+/* General font styles */
 .nunito-sans {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
@@ -9,6 +10,7 @@
   font-style: normal;
 }
 
+/* Progress bar height */
 .progress {
   height: 23px;
 }
@@ -17,6 +19,7 @@
   line-height: 20px;
 }
 
+/* Heading styles */
 .skill {
   font-family: 'Josefin Sans', sans-serif;
   margin-top: 30px;
@@ -40,6 +43,7 @@
   font-family: 'Nunito', sans-serif;
 }
 
+/* Accordion button and transition styles */
 .accordion-button::after {
   transition: transform 0.3s ease;
   font-size: 0.75em;
@@ -70,6 +74,7 @@
   font-size: 17px;
 }
 
+/* Progress bar styles */
 .progress-bar {
   text-align: left;
   padding-left: 10px;
@@ -78,11 +83,13 @@
   transition: width 2s ease-in-out;
 }
 
+/* Remove focus outlines */
 button:focus {
   outline: none;
   box-shadow: none;
 }
 
+/* Responsive adjustments */
 @media (max-width: 767px) {
   .bar {
       margin-top: 40px;
@@ -97,6 +104,7 @@ button:focus {
   }
 }
 
+/* Animation for skills section */
 @keyframes slideDown {
   0% {
       opacity: 0;
@@ -112,6 +120,7 @@ button:focus {
   animation: slideDown 0.5s ease-out;
 }
 
+/* Accordion button styles */
 .accordion-button {
   background-color: transparent;
   border: none;
@@ -132,14 +141,25 @@ button:focus {
   border-top: none;
 }
 
+/* Transparent background for progress */
 .progress {
   background-color: transparent;
 }
+
 @media (min-width: 768px) {
   .skill {
     font-size: 2rem; /* Larger font size for h2 on medium and larger screens */
   }
+}
 
- 
+/* Adjusting margins and padding to align progress bars with accordion */
+.accordion-button,
+.progress {
+  margin-left: 15px; /* Adjust this value to align with your layout */
+  margin-right: 15px; /* Adjust this value to align with your layout */
+}
+
+.progress {
+  margin-top: 15px; /* Adjust this value to match the spacing between accordion items */
 }
 
