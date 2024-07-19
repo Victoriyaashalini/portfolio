@@ -1,174 +1,428 @@
+// // .about-section {
+// // 	background: linear-gradient(to right, #101c21, #16282e, #345563); 
+// //     height: 68vh; 
+// //     margin-top: 5rem;/* Full height of the viewport */
+// // }
+// // .get{
+// //     color: rgb(220, 91, 72);
+// //     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+// // }
+// //   .mail {
+// //     color: pink;
+// // }
+
+// // .conthree{
+// // 	color: rgb(236, 227, 250);
+// // }
+
+
+// // h2 {
+// //     font-size: 2rem;
+// //     font-weight: bold;
+// // }
+
+// // .fa {
+// //     margin-right: 10px;
+// //     color: #000;
+// // }
+
+// // .btn-dark {
+// //     background-color: #000;
+// //     color: #fff;
+// // }
+
+// // .full-width-hr {
+// //     width: 100%;
+// //     border: 0;
+// //     border-top: 1px solid #ffffff;
+// //     margin-top: 20px;
+// //     margin-bottom: 20px;
+// // }
+
+// // .contact-details {
+// //     margin-top: 20px;
+// // }
+
+// // .social-icons {
+// //     display: flex;
+// //     justify-content: center;
+// //     align-items: center;
+// //     width: 100%;
+// // }
+
+// // .social-icon {
+// //     margin: 0 10px;
+// // }
+
+// // .cont1{
+// // 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+// // 	color: white;
+// // }
+// // .conttwo{
+// // 	font-family: 'Merriweather', serif;
+// // 	color: rgb(154, 151, 151);
+// // 	font-size: 18px;
+// // }
+// // @media (max-width: 768px) {
+// //     .d-flex {
+// //         flex-direction: column;
+// //         align-items: flex-start;
+// //     }
+
+// //     .btn-dark {
+// //         margin-bottom: 10px;
+// //     }
+
+// //     .fa {
+// //         margin-bottom: 10px;
+// //     }
+// // }
+
+// // @media (min-width: 768px) {
+// //     .contact-details {
+// //         margin-left: auto;
+// //     }
+// // }
+// .pt-serif-regular {
+//     font-family: "PT Serif", serif;
+//     font-weight: 400;
+//     font-style: normal;
+//     }
+    
 // .about-section {
-// 	background: linear-gradient(to right, #101c21, #16282e, #345563); 
-//     height: 68vh; 
-//     margin-top: 5rem;/* Full height of the viewport */
+//     background-color: #060808; 
+//     margin-top: 5rem;
 // }
-// .get{
-//     color: rgb(220, 91, 72);
+
+// .get {
+//     color: #14d337;
+//     font-family: 'Josefin Sans', sans-serif;
+//     font-size: 2.5rem; /* Default size */
+// }
+
+// .cont1 {
 //     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-// }
-//   .mail {
-//     color: pink;
-// }
-
-// .conthree{
-// 	color: rgb(236, 227, 250);
+//     color: #ffffff;
+//     font-size: 1.5rem; /* Default size */
 // }
 
-
-// h2 {
-//     font-size: 2rem;
-//     font-weight: bold;
+// .conttwo {
+//     font-family: 'Nunito', sans-serif;
+//     color: #ffffff;
+//     font-size: 1.125rem; /* Default size */
 // }
 
-// .fa {
-//     margin-right: 10px;
-//     color: #000;
-// }
-
-// .btn-dark {
-//     background-color: #000;
-//     color: #fff;
+// .conthree {
+//     color: #ffffff;
+//     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+//     font-size: 1.5rem; /* Default size */
 // }
 
 // .full-width-hr {
 //     width: 100%;
 //     border: 0;
-//     border-top: 1px solid #ffffff;
+//     border-top: 1px solid #9a9a9a;
 //     margin-top: 20px;
 //     margin-bottom: 20px;
 // }
 
-// .contact-details {
-//     margin-top: 20px;
+// .mail {
+//     color: #e0aaaa;
+//     text-decoration: none;
+//     font-size: 1.125rem;
+//     font-family: 'Nunito', sans-serif;
+//     transition: color 0.3s;
+// }
+
+// .mail:hover {
+//     color: #ffffff;
+// }
+
+// .mail i {
+//     font-size: 1.25rem;
+//     margin-right: 8px;
+//     transition: transform 0.3s;
+// }
+
+// .mail:hover i {
+//     transform: scale(1.2);
 // }
 
 // .social-icons {
 //     display: flex;
 //     justify-content: center;
-//     align-items: center;
-//     width: 100%;
+//     margin-top: 20px;
 // }
 
 // .social-icon {
+//     text-decoration: none;
+//     color: #0e0c0c;
+//     font-size: 1.5rem;
+//     width: 2.5rem;
+//     height: 2.5rem;
+//     background-color: #ffffff;
+//     border-radius: 50%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition: transform 0.3s, background-color 0.3s;
 //     margin: 0 10px;
 // }
 
-// .cont1{
-// 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-// 	color: white;
-// }
-// .conttwo{
-// 	font-family: 'Merriweather', serif;
-// 	color: rgb(154, 151, 151);
-// 	font-size: 18px;
-// }
-// @media (max-width: 768px) {
-//     .d-flex {
-//         flex-direction: column;
-//         align-items: flex-start;
-//     }
-
-//     .btn-dark {
-//         margin-bottom: 10px;
-//     }
-
-//     .fa {
-//         margin-bottom: 10px;
-//     }
+// .social-icon:hover {
+//     color: #800000;
+//     transform: scale(1.2);
 // }
 
-// @media (min-width: 768px) {
-//     .contact-details {
-//         margin-left: auto;
+// .mx-2 {
+//     margin: 0 15px;
+// }
+
+// /* Responsive font sizes */
+// @media (max-width: 575px) {
+//     .get {
+//         font-size: 2rem;
+//     }
+//     .cont1, .conthree {
+//         font-size: 1rem;
+//     }
+//     .conttwo, .mail {
+//         font-size: 0.875rem;
+//     }
+//     .mail i {
+//         font-size: 0.875rem;
+//     }
+//     .social-icon {
+//         font-size: 1.25rem;
+//         width: 2rem;
+//         height: 2rem;
 //     }
 // }
 
+// @media (min-width: 576px) and (max-width: 767px) {
+//     .get {
+//         font-size: 2.25rem;
+//     }
+//     .cont1, .conthree {
+//         font-size: 1.375rem;
+//     }
+//     .conttwo, .mail {
+//         font-size: 1.0625rem;
+//     }
+//     .mail i {
+//         font-size: 1.125rem;
+//     }
+//     .social-icon {
+//         font-size: 1.375rem;
+//         width: 2.25rem;
+//         height: 2.25rem;
+//     }
+// }
+
+// @media (min-width: 768px) and (max-width: 991px) {
+//     .get {
+//         font-size: 2.375rem;
+//     }
+//     .cont1, .conthree {
+//         font-size: 1.4375rem;
+//     }
+//     .conttwo, .mail {
+//         font-size: 1.09375rem;
+//     }
+//     .mail i {
+//         font-size: 1.1875rem;
+//     }
+//     .social-icon {
+//         font-size: 1.4375rem;
+//         width: 2.375rem;
+//         height: 2.375rem;
+//     }
+// }
+
+// @media (min-width: 992px) {
+//     .get {
+//         font-size: 2.5rem;
+//     }
+//     .cont1, .conthree {
+//         font-size: 1.5rem;
+//     }
+//     .conttwo, .mail {
+//         font-size: 1.125rem;
+//     }
+//     .mail i {
+//         font-size: 1.25rem;
+//     }
+//     .social-icon {
+//         font-size: 1.5rem;
+//         width: 2.5rem;
+//         height: 2.5rem;
+//     }
+// }
 .about-section {
-     	background-color: #060808; 
-        margin-top: 5rem;/* Full height of the viewport */
-     }
-     .get{
-             color: #14d337;
-             font-family: 'Josefin Sans', sans-serif;
-            }
-        .cont1{
-             	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-             	color: rgb(255, 255, 255);
-             }
-             .conttwo{
-                font-family: 'Nunito', sans-serif;
-                color: rgb(255, 255, 255);
-             	font-size: 17px;
-             }
-             .conthree{
-                	color: rgb(255, 255, 255);
-                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                 }
-                 .full-width-hr {
-                        width: 100%;
-                         border: 0;
-                         border-top: 1px solid #9a9a9a;
-                         margin-top: 20px;
-                         margin-bottom: 20px;
-                     }
-                     .mail {
-                             color: pink;
-                             text-decoration: none;
-                             font-size: 18px;
-                             font-family: 'Nunito', sans-serif;
+    background-color: #060808; 
+    margin-top: 5rem;
+    color: white;
+}
 
-                         }
-                         .social-icons {
-                            display: flex;
-                            justify-content: center;
-                            margin-top: 20px;
-                        }
-                        
-                        .social-icon {
-                            text-decoration: none;
-                            color: #0e0c0c; /* Change to desired color */
-                            font-size: 24px; /* Increase icon size */
-                            width: 40px;
-                          height: 40px;
-                          background-color: #ffffff; /* Background color */
-                            border-radius: 50%; /* Make the background circular */
-                          display: flex;
-                         align-items: center;
-                         justify-content: center;
-                     transition: transform 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
-                     margin: 0 10px; /* Add smooth transition for hover effects */
-                        }
-                        
-                        .social-icon:hover {
-                            color: #800000; /* Change color on hover */
-                            transform: scale(1.2); /* Scale up the icon on hover */
-                        }
-                        
-                        /* Additional styling for spacing */
-                        .mx-2 {
-                            margin: 0 15px; /* Adjust margin as needed */
-                        }
-                        .mail {
-                            text-decoration: none;
-                            color: #e0aaaa; /* Change to your desired color */
-                            font-size: 16px;
-                            transition: color 0.3s; /* Smooth transition for hover effects */
-                        }
-                        
-                        .mail:hover {
-                            color: #ffffff; /* Change color on hover */
-                        }
-                        
-                        .mail i {
-                            font-size: 18px; /* Size of the icon */
-                            margin-right: 8px; /* Space between the icon and email address */
-                            transition: transform 0.3s; /* Smooth transition for hover effects */
-                        }
-                        
-                        .mail:hover i {
-                            transform: scale(1.2); /* Scale up the icon on hover */
-                        }
-                        
-                      
-                        
+.get {
+    color: #14d337;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.full-width-hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #9a9a9a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cont1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.conttwo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+.conthree {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mail {
+    color: #e0aaaa;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-family: 'Nunito', sans-serif;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.mail:hover {
+    color: #ffffff;
+}
+
+.mail i {
+    font-size: 1.25rem;
+    margin-right: 8px;
+    transition: transform 0.3s;
+}
+
+.mail:hover i {
+    transform: scale(1.2);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #0e0c0c;
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, background-color 0.3s;
+    margin: 0 10px;
+}
+
+.social-icon:hover {
+    color: #f55f5f;
+    transform: scale(1.2);
+}
+
+/* Responsive font sizes */
+@media (max-width: 575px) {
+    .get {
+        font-size: 2rem;
+    }
+    .cont1, .conthree {
+        font-size: 1.25rem;
+    }
+    .conttwo, .mail {
+        font-size: 1rem;
+    }
+    .mail i {
+        font-size: 1rem;
+    }
+    .social-icon {
+        font-size: 1.25rem;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .get {
+        font-size: 2.25rem;
+    }
+    .cont1, .conthree {
+        font-size: 1.375rem;
+    }
+    .conttwo, .mail {
+        font-size: 1.0625rem;
+    }
+    .mail i {
+        font-size: 1.125rem;
+    }
+    .social-icon {
+        font-size: 1.375rem;
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .get {
+        font-size: 2.375rem;
+    }
+    .cont1, .conthree {
+        font-size: 1.4375rem;
+    }
+    .conttwo, .mail {
+        font-size: 1.09375rem;
+    }
+    .mail i {
+        font-size: 1.1875rem;
+    }
+    .social-icon {
+        font-size: 1.4375rem;
+        width: 2.375rem;
+        height: 2.375rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .get {
+        font-size: 2.5rem;
+    }
+    .cont1, .conthree {
+        font-size: 1.5rem;
+    }
+    .conttwo, .mail {
+        font-size: 1.125rem;
+    }
+    .mail i {
+        font-size: 1.25rem;
+    }
+    .social-icon {
+        font-size: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
