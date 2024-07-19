@@ -23,7 +23,7 @@ export class ProjectsComponent {
     {
       fronttitle: 'Frontend',
       backtitle:'Tour Experts',
-      link: 'https://example.com/coding-achievements',
+      link: 'https://tourexperrts.netlify.app',
       image: '../../../assets/images/angular_article.png',
       frontdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
       backdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
@@ -41,7 +41,7 @@ export class ProjectsComponent {
     {
       fronttitle: 'Full stack',
       backtitle:'PawfectCare',
-      link: 'https://example.com/extracurricular-achievements',
+      link: 'https://pawfectcare.netlify.app/',
       image: '../../../assets/images/able-mean-stack-developers.jpg',
       frontdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
       backdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
