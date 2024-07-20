@@ -34,7 +34,7 @@ export class AboutComponent {
 	countries = COUNTRIES;
 	downloadCV(): void {
 		const link = document.createElement('a');
-		link.href = '../../../assets/images/VICTORIYA-SHALINI--A-.pdf';
+		link.href = '../../../assets/images/VICTORIYA-SHALINI--A-MEANSTACK.pdf';
 		link.download = 'Victoriya_Shalini_CV.pdf';
 		link.click();
 	  }
