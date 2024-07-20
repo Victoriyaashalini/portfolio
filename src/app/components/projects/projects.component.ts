@@ -21,7 +21,7 @@ interface Project {
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      fronttitle: 'Frontend',
+      fronttitle: 'Front end',
       backtitle:'Tour Experts',
       link: 'https://tourexperrts.netlify.app',
       image: '../../../assets/images/angular_article.png',
