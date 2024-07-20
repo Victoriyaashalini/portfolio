@@ -11,24 +11,38 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
   styleUrl: './navbar.component.scss',
   animations: [
     trigger('iconAnimation', [
-      state('open', style({
-        transform: 'rotate(90deg)',
-        opacity: 1
-      })),
       state('closed', style({
-        transform: 'rotate(0deg)',
-        opacity: 0.7
+        transform: 'rotate(0deg)'
+      })),
+      state('open', style({
+        transform: 'rotate(45deg)' // Adjust this to your desired cross icon animation
+      })),
+      transition('closed <=> open', [
+        animate('300ms ease-in-out')
+      ])
+    ]),
+    trigger('menuAnimation', [
+      state('closed', style({
+        height: '0px',
+        opacity: 0,
+        display: 'none'
+      })),
+      state('open', style({
+        height: '*',
+        opacity: 1,
+        display: 'block'
       })),
       transition('closed <=> open', [
         animate('300ms ease-in-out')
       ])
     ])
   ]
+  
 })
 export class NavbarComponent {
-  isOpen = false;
+  isMenuOpen = false;
 
   toggleMenu() {
-    this.isOpen = !this.isOpen;
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }
