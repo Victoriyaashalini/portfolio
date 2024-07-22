@@ -1,12 +1,15 @@
 import { Component,OnInit } from '@angular/core';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
+import { trigger, state, style, transition, animate, query, stagger } from '@angular/animations';
+
 
 @Component({
   selector: 'app-skills',
   standalone: true,
   imports: [NgbAccordionModule],
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.scss'
+  styleUrl: './skills.component.scss',
+  
 })
 export class SkillsComponent  implements OnInit {
 

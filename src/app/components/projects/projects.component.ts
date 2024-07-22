@@ -23,7 +23,7 @@ export class ProjectsComponent {
     {
       fronttitle: 'Front end',
       backtitle:'Tour Experts',
-      link: 'https://tourexperrts.netlify.app',
+      link: 'https://tourexperts.netlify.app/',
       image: '../../../assets/images/angular_article.png',
       frontdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
       backdescription: 'Explore my front-end development projects showcasing modern design and user experience.',
